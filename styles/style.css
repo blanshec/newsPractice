@@ -1,0 +1,22 @@
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* HEADER */
+.header {
+    height: 50px;
+
+    background-color: pink;
+
+    display: flex;
+    flex-direction: row;
+}
+
+/* CONTENT */
+.content {
+
+}
