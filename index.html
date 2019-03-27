@@ -12,20 +12,23 @@
 
 <body>
     <div class="page">
-        <header class="header">
-            <nav class="menu">
-                <a href="">
+        <header class="main-menu">
+            <div class="main-menu_left">
+                <a class="main-menu__logo" href="">
                     <img src="">
                 </a>
-                <a href="">Популярное</a>
-                <a href="">Свежее</a>
-                <a href="">Вакансии</a>
-            </nav>
-            
-            <div class="menu menu__search"></div>
+                <nav class="main-menu__items">
+                    <a class="main-menu__item" href="">Популярное</a>
+                    <a class="main-menu__item" href="">Свежее</a>
+                    <a class="main-menu__item" href="">Вакансии</a>
+                </nav>
+            </div>
+            <div class="main-menu_right">
+                <div class="main-menu__search"></div>
 
-            <div class="menu menu__button">Написать</div>
-            <div class="menu menu__login">Войти</div>
+                <button class="main-menu__write">Написать</button>
+                <div class="main-menu__login">Войти</div>
+            </div>
         </header>
 
         <div class="content">

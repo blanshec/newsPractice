@@ -7,13 +7,34 @@
 }
 
 /* HEADER */
-.header {
+.main-menu {
     height: 50px;
+    width: 100%;
+    overflow: auto;
+    position: relative;
 
-    background-color: pink;
+    background-color: #FEEBEF;
 
     display: flex;
     flex-direction: row;
+}
+
+.main-menu_left {
+    width: 640px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-menu_right {
+    width: 640px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /* CONTENT */
